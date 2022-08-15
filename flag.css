@@ -1,0 +1,82 @@
+.box{
+    background-color: rgb(219, 65, 48);
+    width: 1520;
+    height: 250px;
+    margin: 0px;
+    padding: 0px;
+    
+    
+    
+}
+.box1{
+   
+    width: 1520px;
+    height: 250px;
+    margin: 0;
+  padding-left: 600px;
+  
+}
+.box2{
+    background-color: rgb(17, 187, 20);
+    width: 1520;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+
+}
+img {
+    width: 250px;
+    height: 250px; 
+   
+  }
+
+
+.box:hover{
+    background: linear-gradient(to right rgb(217, 100, 61),white,green);
+ 
+    
+}
+.box:hover{
+    background: linear-gradient(rgb(217, 100, 61),white,green);
+}
+.box2:hover{
+    background: linear-gradient(rgb(217, 100, 61),white,green);
+}
+.box3{
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(rgb(217, 100, 61),white,green);
+    border: 2px solid blue;
+    border-radius: 50%;
+    animation: 20s;
+    animation-name: sai;
+}
+
+.box1 .box2:hover{
+    border: 2px solid blue;
+    border-radius: 50%;
+   
+}
+
+font{
+    position: relative;
+    font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 32px;
+  letter-spacing: 4px;
+  background: linear-gradient(90deg,rgb(217,100,61),white,green);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  
